@@ -23,8 +23,7 @@
 
 load_bbs_data <- function(level = "state")
 {
-  bbs_data <- NULL
-  rm(bbs_data)
+  if(exists("bbs_data") rm(bbs_data)
 
   bbs_dir <- app_dir(appname = "bbsBayes")
 
